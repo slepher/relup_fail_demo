@@ -1,11 +1,11 @@
 { "0.2.0",
     [{ "0.1.0",
-        [{update,app_a,
+        [{update,app_a_gen_server,
                  {advanced,[]},
                  brutal_purge,brutal_purge,
                  [lib_a, lib_b]}] }],
     [{ "0.1.0",
-         {update,app_a,
+        [{update,app_a_gen_server,
                  {advanced,[]},
                  brutal_purge,brutal_purge,
                  [lib_a, lib_b]}] }]
