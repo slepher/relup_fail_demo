@@ -72,7 +72,7 @@ init([]) ->
                          {stop, Reason :: term(), Reply :: term(), NewState :: term()} |
                          {stop, Reason :: term(), NewState :: term()}.
 handle_call(_Request, _From, State) ->
-    Reply = lib_a:test(),
+    Reply = lib_b:test(),
     {reply, Reply, State}.
 
 %%--------------------------------------------------------------------

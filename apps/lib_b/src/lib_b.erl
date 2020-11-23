@@ -1,3 +1,7 @@
 -module(lib_b).
 
--export([]).
+-export([test/0]).
+
+
+test() -> 
+  ok.
