@@ -1,6 +1,6 @@
-=== Desc ===
+=== Desc ===  
 Sample code to show how rebar3 relup fail on removed application module deps in appup.  
-=== Usage ===
+=== Usage ===  
 git checkout v0.1.0  
 rebar3 compile  
 rebar3 release  
